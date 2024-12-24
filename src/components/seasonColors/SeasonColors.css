@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.season-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.season {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.season-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.color-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+.spring {
+    background-color: green;
+}
+
+.summer {
+    background-color: yellow;
+}
+
+.autumn {
+    background-color: orange;
+}
+
+.winter {
+    background-color: lightblue;
+}
